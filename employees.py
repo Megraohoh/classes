@@ -7,19 +7,19 @@ class Employees():
         self.job_title = job_title
         self.start_date = start_date
 
-    def set_employee_name():
+    def set_employee_name(self, employee_name):
         self.employee_name = employee_name
 
     def get_employee_name(): 
         return self.employee_name   
 
-    def set_employee_job_title():
+    def set_employee_job_title(self, job_title):
         self.job_title = job_title
 
     def get_employee_job_title():
         return self.job_title
 
-    def set_employee_start_date():
+    def set_employee_start_date(self, start_date):
         self.start_date = start_date
 
     def get_employee_start_date():

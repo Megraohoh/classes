@@ -5,7 +5,7 @@ class Company(object):
         self.company_name = company_name
         self.date_founded = date_founded
 
-    def set_company_name(self):
+    def set_company_name(self, name):
         self.company_name = company_name
 
     def get_company_name(self):
@@ -13,7 +13,7 @@ class Company(object):
 
         return self.company_name
 
-    def set_date_company_founded():
+    def set_date_company_founded(self, date_founded):
         self.date_founded = date_founded 
 
     def get_date_company_founded():  
